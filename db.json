@@ -1,0 +1,60 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "AirBlade 150",
+            "madeBy": "Nhật",
+            "type": "Xe máy",
+            "price": "55000000"
+        },
+        {
+            "id": 2,
+            "name": "Vespa",
+            "madeBy": "Italia",
+            "type": "Xe máy",
+            "price": "85000000"
+        },
+        {
+            "id": 3,
+            "name": "Dream",
+            "madeBy": "Nhật",
+            "type": "Xe máy",
+            "price": "20000000"
+        },
+        {
+            "id": 4,
+            "name": "Sh 150",
+            "madeBy": "Nhật",
+            "type": "Xe máy",
+            "price": "110000000"
+        },
+        {
+            "id": 5,
+            "name": "Iphone 12",
+            "madeBy": "Mỹ",
+            "type": "Điện thoại",
+            "price": "23000000"
+        },
+        {
+            "id": 6,
+            "name": "Xperia 1",
+            "madeBy": "Nhật",
+            "type": "Điện thoại",
+            "price": "15000000"
+        },
+        {
+            "id": 7,
+            "name": "S21 ultra",
+            "madeBy": "Việt Nam",
+            "type": "Điện thoại",
+            "price": "30000000"
+        },
+        {
+            "id": 8,
+            "name": "Vsmart Aris Pro",
+            "madeBy": "Việt Nam",
+            "type": "Điện thoại",
+            "price": "8000000"
+        }
+    ]
+}
