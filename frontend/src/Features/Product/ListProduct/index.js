@@ -45,6 +45,14 @@ const ListProductContainer = () => {
                 data={list}
                 options={{
                     grouping: true,
+                    search: false,
+                }}
+                components={{
+                    Toolbar: (props) => (
+                        <div style={{ backgroundColor: '#e8eaf5' }}>
+                            <div>Header test</div>
+                        </div>
+                    ),
                 }}
             />
         </div>

@@ -1,0 +1,26 @@
+version: '2'
+services:
+    frontend:
+        container_name: frontend
+        build:
+            context: ./frontend
+            dockerfile: Dockerfile
+        ports:
+            - 8000:80
+        networks:
+            - my_network
+        environment:
+            APP_ENV: production
+            API_ENDPOINT: backend
+    backend:
+        container_name: backend
+        build:
+            context: ./backend
+            dockerfile: Dockerfile
+        ports:
+            - 3000:3000
+        networks:
+            - my_network
+networks:
+    my_network:
+        driver: bridge
