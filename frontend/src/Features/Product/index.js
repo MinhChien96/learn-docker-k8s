@@ -13,7 +13,7 @@ const useStyles = makeStyles((theme) => ({
 const ProductContainer = () => {
     const classes = useStyles();
     return (
-        <Container maxWidth='md' fixed className={classes.container}>
+        <Container maxWidth='lg' fixed className={classes.container}>
             <ListProduct />
         </Container>
     );

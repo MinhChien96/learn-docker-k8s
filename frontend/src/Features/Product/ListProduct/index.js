@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import MaterialTable from 'Components/MaterialTable';
+import FilterComponent from './Filter';
 import { fetchProduct } from '../ProductSlice';
 
 const ListProductContainer = () => {
@@ -46,13 +47,14 @@ const ListProductContainer = () => {
                 options={{
                     grouping: true,
                     search: false,
+                    rowStyle: {
+                        '&:hover': {
+                            background: 'red',
+                        },
+                    },
                 }}
                 components={{
-                    Toolbar: (props) => (
-                        <div style={{ backgroundColor: '#e8eaf5' }}>
-                            <div>Header test</div>
-                        </div>
-                    ),
+                    Toolbar: (props) => <FilterComponent {...props} />,
                 }}
             />
         </div>
